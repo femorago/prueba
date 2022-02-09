@@ -1,0 +1,102 @@
+/* Selector universal que resetea algunos estilos por
+ defailt que trae el HTML*/
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+
+/* Regla @ { }*/
+
+@font-face{
+    /* Despues reutilizas en los elementos con el nombre que vos le pusiste */
+
+    font-family: "Roboto-encabezados";
+    src: url("roboto-fontfacekit/web-fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff") format("woff");
+}
+
+/* Aqui aplicaria la tipografia que cree para usar en los encabezados */
+h3 {
+    font-family: "Roboto-encabezados"
+}
+
+
+ /* Fonts */
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans&display=swap');
+
+/* selector {
+    propiedad: valor;
+*/
+
+/* p {
+    color: blue;
+} */
+
+/* body {
+    background-color: cornflowerblue;
+} */
+
+h1 {
+    text-decoration: underline;
+}
+
+/* Clases / el punto . es el simbolo */
+.parrafo-header {
+    color: blue;
+}
+
+/* ID - Se puede usar solo una vez */
+
+/* #trabajos {
+
+} */
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+
+/* Fin Header */
+
+
+/* 
+Kebah-case (es la mas comun, la usa bootsrap)
+camelCase
+snake_case
+*/
+
+/* body {
+    background-image: url("/img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+/* Casacada */
+
+header nav ul li {
+    color: white;
+}
+
+header .navbar #listas li {
+    background-color: tomato;
+}
+
+/* , */
+
+nav, h1, footer {
+    background-color: tomato;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+
+}
